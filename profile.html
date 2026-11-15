@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Kumar Portfolio</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+
+    <header>
+        <h1>Aditya Kumar</h1>
+        <p>Full Stack Developer & Lifelong Learner</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <figure>
+                <img src="images_videos/aditya.jpg">
+                <figcaption><em>That's me at my first hackathon!</em></figcaption>
+            </figure>
+            <p>
+                Hi! I am <strong>Aditya Kumar</strong>, a passionate full stack developer learning to build real-world products. I am currently taking the <em>PW Full Stack Course.</em>
+            </p>
+        </section>
+
+        <section id="project">
+            <h2>My Projects</h2>
+            <div id="projects-container">
+                <article>
+                    <h3>Project One : Portfolio Website</h3>
+                    <p>A simple personal portfolio built with <strong>HTML & CSS.</strong></p>
+                    <a href="">View on GitHub</a>
+                </article>
+                <article>
+                    <h3>Project Two : Todo App</h3>
+                    <p>A todo list app built with <strong>JavaScript.</strong></p>
+                    <a href="">View on GitHub</a>
+                </article>
+            </div>
+            <div id="skills-box">
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="intro">
+            <h2>Watch My Intro</h2>
+            <video src="images_videos/aditya.mp4" controls poster="images_videos/aditya.jpg"></video>
+        </section>
+
+        <footer id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="">aditya1596793009@gmail.com</a></p>
+            <p>Phone: <a href="">+91 79039 66928</a></p>
+            <form action>
+                <label for="name">Name: </label>
+                <input type="text" id="name" placeholder="Enter your name">
+                <label for="email">Email: </label>
+                <input type="email" id="email" placeholder="Enter your email">
+                <label for="msg">Message: </label>
+                <textarea id="msg" placeholder="Write your message here..." rows="5" cols="40"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div id="footer-bottom">
+                <p>&copy; 2025 Aditya Kumar. All rights reserved.</p>
+                <article>
+                    <a href="">Linkedin</a> | <a href="">GitHub</a>
+                </article>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
